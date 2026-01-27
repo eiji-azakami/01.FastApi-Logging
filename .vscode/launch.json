@@ -11,9 +11,12 @@
             "module": "uvicorn",
             "args": [
                 "app.main:app",
-                "--reload"
+                "--reload",
+                "--no-access-log"
             ],
-            "jinja": true
+            "jinja": true,
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
         }
     ]
 }

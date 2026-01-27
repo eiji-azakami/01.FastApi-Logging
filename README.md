@@ -14,11 +14,17 @@ FastAPI ログ設計サンプル。
 
 ```bash
 python -m venv venv
-venv\Scripts\activate   # Windows
+# Windows (PowerShell)
+venv\Scripts\Activate.ps1
+# Windows (cmd.exe)
+venv\Scripts\activate.bat
 pip install -r requirements.txt
-uvicorn app.main:app --reload
+uvicorn app.main:app --reload --no-access-log
 ```
-http://127.0.0.1:8000/docs
+
+# After startup:
+- Swagger UI: http://127.0.0.1:8000/docs
+- Redoc:        http://127.0.0.1:8000/redoc
 
 ## テスト
 
@@ -30,6 +36,7 @@ python -m pytest
  
 現状試作品です。
 今後改良していく予定。
+Uvicorn のデフォルトアクセスログは無効にしてます。
  
 # Author
  
