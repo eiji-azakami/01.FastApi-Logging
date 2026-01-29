@@ -22,7 +22,7 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload --no-access-log
 ```
 
-# After startup:
+# 起動後
 - Swagger UI: http://127.0.0.1:8000/docs
 - Redoc:        http://127.0.0.1:8000/redoc
 
