@@ -11,7 +11,7 @@ from pathlib import Path
 
 from fastapi import APIRouter, Query, HTTPException
 
-router = APIRouter()
+router = APIRouter(tags=["logs"])
 
 LOG_FILE = Path("logs/app.log")
 

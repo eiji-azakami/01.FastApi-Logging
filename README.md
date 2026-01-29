@@ -1,7 +1,7 @@
 # FastAPI Logging Sample
 
 ## 概要
-FastAPI ログ設計サンプル。
+FastAPI ロギングサンプル
 
 - JSON ログ出力
 - Request-ID を発行し出力

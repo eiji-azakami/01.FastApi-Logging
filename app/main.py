@@ -7,7 +7,7 @@ from app.exceptions.handlers import unhandled_exception_handler
 
 setup_logging()
 
-app = FastAPI()
+app = FastAPI(title="FastAPI ロギングサンプル")
 
 app.middleware("http")(access_log_middleware)
 app.add_exception_handler(Exception, unhandled_exception_handler)
