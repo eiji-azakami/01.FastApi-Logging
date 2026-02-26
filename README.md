@@ -12,8 +12,7 @@ FastAPI ロギングサンプル
 
 ## Demo
 Cloud Run サーバーレス構成サンプル<br>
-https://fastapilogging-xxxx.run.app/docs
-
+https://fastapilogging-347911280466.asia-northeast1.run.app/docs
 
 ## 起動方法
 
