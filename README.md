@@ -10,6 +10,10 @@ FastAPI ロギングサンプル
 - ログ取得 API（期間指定）
 - テスト付き（pytest）
 
+## Demo
+https://fastapilogging-xxxx.run.app/docs
+Cloud Run サーバーレス構成サンプル
+
 ## 起動方法
 
 pythonコマンドは環境によって「python3」だったり、「python」、「py」だったりするようです。<br>
